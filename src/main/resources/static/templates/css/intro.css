@@ -1,0 +1,53 @@
+article#article .wrap {
+  height: 100%;
+  background-image: url('images/backgrounds/back_cloudy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+article#article .wrap .logo {
+  position: absolute;
+  top: 20px;
+  right: 34px;
+}
+article#article .wrap .container {
+  position: absolute;
+  display: inline-block;
+}
+article#article .wrap .container .weather_img {
+  text-align: center;
+}
+article#article .wrap .container .state {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 0;
+}
+article#article .wrap .container .state .inline {
+  display: inline-block;
+  font-size: 1rem;
+  color: #FFFFFF;
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+}
+article#article .wrap .container .state .inline.left {
+  padding-right: 1em;
+}
+article#article .wrap .container .state .address {
+  font-size: 1.2em;
+  text-align: right;
+  padding-bottom: 4.5px;
+  font-weight: 200;
+  opacity: 0.4;
+}
+article#article .wrap .container .state .weather {
+  padding-top: 4.5px;
+  font-size: 2.5em;
+  text-align: right;
+  font-weight: 200;
+  opacity: 0.7;
+}
+article#article .wrap .container .state .temperature {
+  font-size: 5.5em;
+  font-weight: 200;
+  opacity: 0.5;
+}

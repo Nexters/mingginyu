@@ -1,0 +1,61 @@
+.noto() {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.roboto() {
+    font-family: 'Roboto','Noto Sans KR', sans-serif;
+}
+article#article {
+    .wrap {
+        height:100%;
+        background-image:url('images/backgrounds/back_cloudy.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        position:relative;
+        .logo {
+            position:absolute;
+            top:20px;
+            right:34px;
+        }
+        .container {
+            position:absolute;
+            display:inline-block;
+            .weather_img {
+                text-align:center;
+            }
+            .state {
+                display:inline-block;
+                margin:0 auto;
+                font-size:0;
+                .inline {
+                    display:inline-block;
+                    font-size:1rem;
+                    color:#FFFFFF;
+                    .roboto();
+                    &.left {
+                        padding-right:1em;
+                    }
+                }
+                .address {
+                    font-size:1.2em;
+                    text-align:right;
+                    padding-bottom:4.5px;
+                    font-weight:200;
+                    opacity:0.4;
+                }
+                .weather {
+                    padding-top:4.5px;
+                    font-size:2.5em;
+                    text-align:right;
+                    font-weight:200;
+                    opacity:0.7;
+                }
+                .temperature {
+                    font-size:5.5em;
+                    font-weight:200;
+                    opacity:0.5;
+                }
+            }
+        }
+    }
+}
